@@ -1,0 +1,54 @@
+.idea
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build artifacts
+/build/
+/bin/
+/dist/
+*.log
+*.lock
+
+# Test and coverage files
+*.coverprofile
+*.prof
+*.out
+*.test
+
+# Dependency directories (only if not using Go modules)
+vendor/
+
+# Go workspace file
+go.work
+
+# Ignore GoLand project files
+.idea/
+# User-specific stuff (config, etc.)
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+.idea/**/shelf/
+
+# Ignore VSCode settings if you're using it
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Go Modules
+/go.sum
+/go.work.sum
+
+# Generated code (e.g., by 'go generate')
+*.gen.go
+
+# local env files
+.env*.local
+.env!/.idea/
