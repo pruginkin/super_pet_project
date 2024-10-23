@@ -18,8 +18,6 @@
 # Test and coverage files
 *.coverprofile
 *.prof
-*.out
-*.test
 
 # Dependency directories (only if not using Go modules)
 vendor/
